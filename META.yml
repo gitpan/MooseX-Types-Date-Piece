@@ -17,14 +17,17 @@ name: MooseX-Types-Date-Piece
 provides:
   MooseX::Types::Date::Piece:
     file: lib/MooseX/Types/Date/Piece.pm
-    version: 0.02
+    version: 0.03
 requires:
-  Date::Piece: v0.0.3
+  Date::Piece: 0.000003
   Moose: 0
   MooseX::Types: 0
   MooseX::Types::Moose: 0
   namespace::autoclean: 0
   perl: 5.006
 resources:
+  bugtracker: http://github.com/stevenl/moosex-types-date-piece/issues
+  homepage: http://search.cpan.org/dist/MooseX-Types-Date-Piece/
   license: http://dev.perl.org/licenses/
-version: 0.02
+  repository: http://github.com/stevenl/moosex-types-date-piece
+version: 0.03
